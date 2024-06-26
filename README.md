@@ -2,25 +2,10 @@
 
 This is an utility that allows you to collect movie scripts from several sources and create a database of 2.5k+ movie scripts as `.txt` files along with the metadata for the movies.
 
-There are four steps to the whole process:
-
-1. Collect scripts from various [sources](https://github.com/Aveek-Saha/Movie-Script-Database#sources) - Scrape websites for scripts in HTML, txt, doc or pdf format
-1. Collect metadata - Get metadata about the scripts from [TMDb](https://www.themoviedb.org/) and [IMDb](https://www.imdb.com/) for additional processing
-1. Find duplicates from different sources - Automatically group and remove duplicates from different sources.
-1. Parse Scripts - Convert scripts into lines with just Character and dialogue
 
 ## Usage
 
 The following steps MUST be run in order
-
-### Clone
-
-Clone this repository:
-
-```
-git clone https://github.com/Aveek-Saha/Movie-Script-Database.git
-cd Movie-Script-Database
-```
 
 ### Dependencies
 
